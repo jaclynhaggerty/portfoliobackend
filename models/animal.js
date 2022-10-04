@@ -13,6 +13,7 @@ module.exports = (sequelize, DataTypes) => {
     name: DataTypes.STRING,
     age: DataTypes.INTEGER,
     species: DataTypes.STRING,
+    description: DataTypes.STRING,
     adopted: DataTypes.BOOLEAN
   }, {
     sequelize,
