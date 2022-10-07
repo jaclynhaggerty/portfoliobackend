@@ -9,6 +9,8 @@ module.exports = {
           name: "Petunia",
           age: 1,
           species: "Hedgehog",
+          mainImage: "Petunia_1",
+          extraImages: ["Petunia_2", "Petunia_3"],
           description: `Petunia is the newest addition to our crew! She is a small African
           Pygmy Hedgehog around 8 months of age. Her favorite snacks include mealworms and fresh berries.
           While she mostly enjoys chilling out in her hut, she can often be found on her exercise wheel or 
@@ -22,6 +24,8 @@ module.exports = {
           name: "Thumbs",
           age: 1,
           species: "Cat",
+          mainImage: "Thumbs_1",
+          extraImages: ["Thumbs_2", "Thumbs_3"],
           description: `Thumbs is a playful orange kitten around three months old. She came to us 
           from a previous owner that could no longer care for her. Her favorite treats include tuna 
           and pumpkin. With her extra toes, Thumbs is an excellent and skillful climber! She enjoys 
@@ -35,6 +39,8 @@ module.exports = {
           name: "Hank",
           age: 1,
           species: "Dog",
+          mainImage: "hank_1",
+          extraImages: ["hank_2", "hank_3"],
           description:`Hank is a four year old male Chihuahua. He was found as a stray and 
           immediately taken in by our team here at Cuddly Critters. Hank loves to sleep and 
           is perfect for someone looking for a nap partner. Hank’s favorite treats are boiled 
@@ -49,6 +55,8 @@ module.exports = {
           name: "Jolene",
           age: 1,
           species: "Rabbit",
+          mainImage: "Jolene_1",
+          extraImages: ["Jolene_2", "Jolene_3"],
           description: `Jolene is a two year old Angora rabbit. She is extremely 
           intelligent and playful! Jolene loves to snack and her favorite treats are 
           radishes and bananas. Due to her long hair, we are looking for someone willing 
@@ -62,6 +70,8 @@ module.exports = {
           name: "Stroopwafel",
           age: 1,
           species: "Dog",
+          mainImage: "Stroopwafel_1",
+          extraImages: ["Stroopwafel_2", "Stroopwafel_3"],
           description: `Stroopwafel is an energetic one year old Golden Retriever. 
           He loves to play fetch and roll over for belly rubs! Stroopwafel is definitely 
           not a picky eater and enjoys all types of treats. He is still learning how to 
@@ -76,6 +86,8 @@ module.exports = {
           name: "Gustav",
           age: 1,
           species: "Bearded Dragon",
+          mainImage: "gustav_1",
+          extraImages: ["gustav_2", "gustav_3"],
           description: `Gustav is a docile two year old Bearded Dragon. Gustav’s 
           favorite treats are crickets and dandelion greens. Gustav enjoys hanging out 
           under his heat lamp and being held. During his time here at Cuddly Creatures 

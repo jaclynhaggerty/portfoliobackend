@@ -14,7 +14,9 @@ module.exports = (sequelize, DataTypes) => {
     age: DataTypes.INTEGER,
     species: DataTypes.STRING,
     description: DataTypes.STRING,
-    adopted: DataTypes.BOOLEAN
+    adopted: DataTypes.BOOLEAN,
+    mainImage: DataTypes.STRING,
+    extraImages: DataTypes.ARRAY(DataTypes.STRING)
   }, {
     sequelize,
     modelName: 'animal',
