@@ -7,6 +7,7 @@ const authRouter = require("./routers/auth");
 const userRouter = require ("./routers/userRouter");
 const animalRouter = require ("./routers/animalRouter");
 const applicationRouter = require('./routers/applicationRouter');
+const productsRouter = require ("./routers/productsRouter");
 
 //constants
 const { PORT } = require("./config/constants");
@@ -27,6 +28,7 @@ app.use("/auth", authRouter);
 app.use("/users", userRouter);
 app.use("/animals", animalRouter);
 app.use("/applications", applicationRouter);
+app.use("/products", productsRouter);
 
 //start listening
 app.listen(PORT, () => {
