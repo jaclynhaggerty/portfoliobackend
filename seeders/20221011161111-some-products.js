@@ -36,8 +36,16 @@ module.exports = {
       {
         id: 5,
         title: "Mushroom Scratching Post",
-        price: 695,
+        price: 25,
         mainImage:"scratchingpost",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: 6,
+        title: "Heat Lamp",
+        price: 35,
+        mainImage:"heatlamp",
         createdAt: new Date(),
         updatedAt: new Date(),
       },
