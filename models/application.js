@@ -13,7 +13,12 @@ module.exports = (sequelize, DataTypes) => {
   application.init({
     userId: DataTypes.INTEGER,
     animalId: DataTypes.INTEGER,
-    approved: DataTypes.BOOLEAN
+    approved: DataTypes.BOOLEAN,
+    hasOtherPets: DataTypes.BOOLEAN,
+    hasChildren: DataTypes.BOOLEAN,
+    hasYard: DataTypes.BOOLEAN,
+    hasFreeTime: DataTypes.BOOLEAN,
+    canContact: DataTypes.BOOLEAN,
   }, {
     sequelize,
     modelName: 'application',

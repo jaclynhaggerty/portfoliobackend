@@ -17,6 +17,32 @@ router.get('/', auth, async (req, res) => {
     res.json(allApps);
 });
 
+router.post('/', auth, async (req, res, next) => {
+    const { hasOtherPets, hasChildren, hasYard, hasFreeTime, canContact, animalId } = req.body
+    if (
+        hasOtherPets === undefined
+        || hasChildren === undefined
+        || hasYard === undefined
+        || hasFreeTime === undefined
+        || canContact === undefined
+        || !animalId) {
+        return res.status(400).send("Please submit all fields:)")
+    }
+const newApplication = {
+    hasOtherPets,
+    hasChildren,
+    hasYard,
+    hasFreeTime,
+    canContact,
+    animalId,
+    userId: req.user.id, 
+    approved: false,
+}
+const createdApplication= await application.create(newApplication)
+res.json (createdApplication);
+})
+
+
 router.put('/:appId', auth, async (req, res, next) => {
     if (!req.user.isAdmin) {
         return res.status(401).send("Only admins can block or unblock users!");
