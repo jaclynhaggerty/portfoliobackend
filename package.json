@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
@@ -7,5 +10,6 @@
     "pg": "^8.8.0",
     "sequelize": "^6.23.2",
     "sequelize-cli": "^6.5.1"
+
   }
 }
